@@ -7,12 +7,12 @@
 Repositório de estudo com exercícios para fixação do conhecimento sobre interfaces funcionais genéricas, denominadas:
 
 
-| Interface funcional | Definição                                                                 |
-|---------------------|---------------------------------------------------------------------------|
-| ```Consumer<T>:```  | Realiza ações em elementos sem retornar nada (como um “consumidor”).      |
-| ```Supplier<T>:```  | Gera valores sem receber argumentos (como um “fornecedor”).               |     
-| ```Function<T>:```  | Transforma um valor de entrada em um valor de saída.                      | 
-| ```Predicate<T>:``` | Avalia uma condição e retorna um booleano.                                |    
+| Interface funcional     | Definição                                                                 |
+|-------------------------|---------------------------------------------------------------------------|
+| ```Consumer<T>:```      | Realiza ações em elementos sem retornar nada (como um “consumidor”).      |
+| ```Supplier<T>:```      | Gera valores sem receber argumentos (como um “fornecedor”).               |     
+| ```Function<T,R>:```    | Transforma um valor de entrada em um valor de saída.                      | 
+| ```Predicate<T>:```     | Avalia uma condição e retorna um booleano.                                |    
 | ```BinaryOperator<T>``` | Combina dois valores do mesmo tipo e retorna um resultado do mesmo tipo.  |
 
 
