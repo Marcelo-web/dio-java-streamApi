@@ -46,5 +46,11 @@ public class ConsumerExample {
                 System.out.print(n + " ");
             }
         });
+
+        System.out.println();
+
+        //4º modo (usando Predicate para filtrar)
+        numeros.stream().filter(n -> n % 2 == 0)
+                .forEach(System.out::println);
     }
 }
